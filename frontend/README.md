@@ -1,10 +1,8 @@
-# 💸 SpendSmart — Frontend
-
-**React 18 + Recharts expense tracking SPA**
+# SpendSmart — Frontend
 
 ---
 
-## 🚀 Setup
+##  Setup
 
 ```bash
 # 1. Install dependencies
@@ -22,7 +20,7 @@ npm run build
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -52,7 +50,7 @@ frontend/
 
 ---
 
-## 🖥️ Pages
+##  Pages
 
 | Route | Page | Description |
 |---|---|---|
@@ -66,7 +64,7 @@ frontend/
 
 ---
 
-## ⚙️ Key Libraries
+## Key Libraries
 
 | Library | Use |
 |---|---|
@@ -78,7 +76,7 @@ frontend/
 
 ---
 
-## 🔐 Auth Flow
+## Auth Flow
 
 1. User logs in → backend returns JWT
 2. Token stored in `window.__authToken` (in-memory, no localStorage)
