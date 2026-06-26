@@ -1,7 +1,4 @@
-# 💸 Expense Tracker — Backend
-
-**Node.js + Express + MongoDB REST API**
-
+# Expense Tracker — Backend
 ---
 
 ## 🚀 Setup
@@ -23,7 +20,7 @@ npm start
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 | Variable | Description | Default |
 |---|---|---|
@@ -35,7 +32,7 @@ npm start
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 ### Auth
 
@@ -54,7 +51,7 @@ npm start
 
 ---
 
-### Expenses (🔒 JWT required)
+### Expenses
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -79,7 +76,7 @@ npm start
 
 ---
 
-### Budget (🔒 JWT required)
+### Budget
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -102,7 +99,7 @@ npm start
 
 ---
 
-### Summary (🔒 JWT required)
+### Summary
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -127,7 +124,7 @@ npm start
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 All protected routes require the `Authorization` header:
 ```
@@ -136,7 +133,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 backend/
@@ -162,7 +159,7 @@ backend/
 
 ---
 
-## 🛡️ Security
+## Security
 
 - Passwords hashed with **bcryptjs** (salt rounds: 12)
 - **JWT** tokens with configurable expiry
