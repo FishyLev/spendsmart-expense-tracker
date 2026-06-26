@@ -1,7 +1,7 @@
 # Expense Tracker — Backend
 ---
 
-## 🚀 Setup
+## Setup
 
 ```bash
 # 1. Install dependencies
